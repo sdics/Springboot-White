@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 // PUT, DELETE, GET, POST -> JS(자바스크립트)
 
 // 포스트맨 -> 4가지 요청을 쉽게 테스트 해볼 수 있다.
+
 @RestController // data를 응답
 public class FirstController {
 	@GetMapping("/first")
@@ -35,3 +36,28 @@ public class FirstController {
 		return"<h1>delete data</h1>";
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
