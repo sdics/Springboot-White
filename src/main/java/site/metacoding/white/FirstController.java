@@ -17,7 +17,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class FirstController {
 	@GetMapping("/first")
 	public String getData() {
-		
 		return "<h1>data</h1>";
 	}
 	
